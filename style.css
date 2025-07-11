@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*-------------------------------------------
+common
+-------------------------------------------*/
+
+body {
+  margin: 0;
+}
+
+/*-------------------------------------------
+header
+-------------------------------------------*/
+
+header {
+  margin-top: 48px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+  background-color: #ddd;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+header p {
+  margin: 24px 0 0 0;
+}
