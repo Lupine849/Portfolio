@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+/*-------------------------------------------
+common
+-------------------------------------------*/
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/*-------------------------------------------
+header
+-------------------------------------------*/
+
+#header {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+  background-color: #ddd;
+}
+
+#header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+#header p {
+  margin: 24px 0 0 0;
+}
+
+/*-------------------------------------------
+profile
+-------------------------------------------*/
+
+#profile {
+  padding-top: 64px;
+}
+
+#profile p {
+  margin: 32px 0 0 0;
+}
+
+/*-------------------------------------------
+skills
+-------------------------------------------*/
+
+#skills {
+  padding-top: 64px;
+}
+
+#skills ul {
+  margin: 24px 0;
+  padding-left: 20px;
+}
+
+#skills ul li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+#skills p {
+  margin: 32px 0 0 0;
+}
+
+/*-------------------------------------------
+works
+-------------------------------------------*/
+
+#works {
+  padding-top: 64px;
+}
+
+#works .work {
+  text-align: center;
+}
+
+#works .work h3 {
+  margin: 32px 0 16px 0;
+}
+
+#works .work p {
+  margin: 32px 0 0 0;
+}
+
+#works .work .comment {
+  text-align: left;
+}
+
+#works .work a {
+  color: #333;
+}
+
+#works .work a:hover {
+  opacity: 0.7;
+}
+
+/*-------------------------------------------
+contact
+-------------------------------------------*/
+
+#contact {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+#contact p {
+  margin: 32px 0 0 0;
+}
+
+#contact a {
+  color: #333;
+}
+
+#contact a:hover {
+  opacity: 0.7;
+}
+
+/*-------------------------------------------
+footer
+-------------------------------------------*/
+
+#footer {
+  background-color: #ddd;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  line-height: 18px;
+}
+
+#footer .footer-copyright {
+  font-size: 10px;
+}
+
+@media (max-width: 768px) {
+
+  /*-------------------------------------------
+  header
+  -------------------------------------------*/
+
+  #header h1 {
+    font-size: 20px;
+  }
+
+  /*-------------------------------------------
+  profile
+  -------------------------------------------*/
+
+  #profile {
+    padding-top: 48px;
+  }
+
+  /*-------------------------------------------
+  skills
+  -------------------------------------------*/
+
+  #skills {
+    padding-top: 48px;
+  }
+
+  /*-------------------------------------------
+  works
+  -------------------------------------------*/
+
+  #works {
+    padding-top: 48px;
+  }
+
+  #works img {
+    margin-top: 32px;
+  }
+
+  #works .work p {
+    margin-top: 16px;
+  }
+
+  /*-------------------------------------------
+  contact
+  -------------------------------------------*/
+
+  #contact {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  /*-------------------------------------------
+  footer
+  -------------------------------------------*/
+
+  #footer {
+    padding-top: 4px;
+  }
+
+}
